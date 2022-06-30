@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Select 列选择器 | TuniaoUI</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="TuniaoUI组件使用说明">
+    
+    <link rel="preload" href="../assets/css/0.styles.adb39c0c.css" as="style"><link rel="preload" href="../assets/js/app.d56807b0.js" as="script"><link rel="preload" href="../assets/js/2.c541581f.js" as="script"><link rel="preload" href="../assets/js/49.0145f474.js" as="script"><link rel="prefetch" href="../assets/js/10.da81944a.js"><link rel="prefetch" href="../assets/js/11.6d00c67a.js"><link rel="prefetch" href="../assets/js/12.f31163d7.js"><link rel="prefetch" href="../assets/js/13.bd1ae31a.js"><link rel="prefetch" href="../assets/js/14.0ecd0dda.js"><link rel="prefetch" href="../assets/js/15.546b7064.js"><link rel="prefetch" href="../assets/js/16.32bd0e7d.js"><link rel="prefetch" href="../assets/js/17.56c4ebde.js"><link rel="prefetch" href="../assets/js/18.187594b8.js"><link rel="prefetch" href="../assets/js/19.be18a999.js"><link rel="prefetch" href="../assets/js/20.0a99b678.js"><link rel="prefetch" href="../assets/js/21.a0e1e67d.js"><link rel="prefetch" href="../assets/js/22.81a9ec25.js"><link rel="prefetch" href="../assets/js/23.244b93ab.js"><link rel="prefetch" href="../assets/js/24.41127143.js"><link rel="prefetch" href="../assets/js/25.e40e364c.js"><link rel="prefetch" href="../assets/js/26.2a768ca4.js"><link rel="prefetch" href="../assets/js/27.52c813f0.js"><link rel="prefetch" href="../assets/js/28.432602ba.js"><link rel="prefetch" href="../assets/js/29.ea288143.js"><link rel="prefetch" href="../assets/js/3.71a9b1d7.js"><link rel="prefetch" href="../assets/js/30.d4ee3c7c.js"><link rel="prefetch" href="../assets/js/31.934b5abc.js"><link rel="prefetch" href="../assets/js/32.334b7650.js"><link rel="prefetch" href="../assets/js/33.30851e11.js"><link rel="prefetch" href="../assets/js/34.68c45b7a.js"><link rel="prefetch" href="../assets/js/35.f6e02837.js"><link rel="prefetch" href="../assets/js/36.223dd09f.js"><link rel="prefetch" href="../assets/js/37.06effde5.js"><link rel="prefetch" href="../assets/js/38.f4c20793.js"><link rel="prefetch" href="../assets/js/39.d15f2433.js"><link rel="prefetch" href="../assets/js/4.57ea333d.js"><link rel="prefetch" href="../assets/js/40.1ea69eec.js"><link rel="prefetch" href="../assets/js/41.cfdeeed9.js"><link rel="prefetch" href="../assets/js/42.31af85d6.js"><link rel="prefetch" href="../assets/js/43.1109c081.js"><link rel="prefetch" href="../assets/js/44.a57c0291.js"><link rel="prefetch" href="../assets/js/45.c79ebfc5.js"><link rel="prefetch" href="../assets/js/46.46c04fb2.js"><link rel="prefetch" href="../assets/js/47.43082f4e.js"><link rel="prefetch" href="../assets/js/48.22afc050.js"><link rel="prefetch" href="../assets/js/5.9b7f8303.js"><link rel="prefetch" href="../assets/js/50.841a5c27.js"><link rel="prefetch" href="../assets/js/51.b60ed6de.js"><link rel="prefetch" href="../assets/js/52.cf1cb614.js"><link rel="prefetch" href="../assets/js/53.dbe5602a.js"><link rel="prefetch" href="../assets/js/54.b9540b1d.js"><link rel="prefetch" href="../assets/js/55.92cc9ebc.js"><link rel="prefetch" href="../assets/js/56.5b0fec0b.js"><link rel="prefetch" href="../assets/js/57.2a11dead.js"><link rel="prefetch" href="../assets/js/58.f2e0d157.js"><link rel="prefetch" href="../assets/js/59.4a5c4b69.js"><link rel="prefetch" href="../assets/js/6.f6976e0a.js"><link rel="prefetch" href="../assets/js/60.d4712cd1.js"><link rel="prefetch" href="../assets/js/61.580acaa3.js"><link rel="prefetch" href="../assets/js/62.20f50c97.js"><link rel="prefetch" href="../assets/js/63.16925ae0.js"><link rel="prefetch" href="../assets/js/64.36acc56d.js"><link rel="prefetch" href="../assets/js/7.ed1855de.js"><link rel="prefetch" href="../assets/js/8.948c5004.js"><link rel="prefetch" href="../assets/js/9.1d360bb0.js">
+    <link rel="stylesheet" href="../assets/css/0.styles.adb39c0c.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="../" class="home-link router-link-active"><img src="../favicon.ico" alt="TuniaoUI" class="logo"> <span class="site-name can-hide">TuniaoUI</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="../" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="../components/introduce.html" class="nav-link">
+  组件
+</a></div><div class="nav-item"><a href="https://www.tuniaokj.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Gitee
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="../" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="../components/introduce.html" class="nav-link">
+  组件
+</a></div><div class="nav-item"><a href="https://www.tuniaokj.com" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  Gitee
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading"><span>起步</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="../components/introduce.html" class="sidebar-link">介绍</a></li><li><a href="../components/install.html" class="sidebar-link">安装</a></li><li><a href="../components/config.html" class="sidebar-link">配置</a></li><li><a href="../components/get_started_quickly.html" class="sidebar-link">快速上手</a></li><li><a href="../components/inner_style.html" class="sidebar-link">内置样式</a></li><li><a href="../components/precautions.html" class="sidebar-link">注意事项</a></li></ul></section></li><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>组件</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><section class="sidebar-group is-sub-group depth-1"><p class="sidebar-heading"><span>基础组件</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="../components/color.html" class="sidebar-link">Color 色彩</a></li><li><a href="../components/icon.html" class="sidebar-link">Icon 图标</a></li><li><a href="../components/button.html" class="sidebar-link">Button 按钮</a></li><li><a href="../components/badge.html" class="sidebar-link">Badge 微标</a></li><li><a href="../components/tag.html" class="sidebar-link">Tag 标签</a></li><li><a href="../components/avatar.html" class="sidebar-link">Avatar 头像</a></li><li><a href="../components/loading.html" class="sidebar-link">Loading 加载动画</a></li><li><a href="../components/swiper.html" class="sidebar-link">Swiper 轮播图</a></li><li><a href="../components/read_more.html" class="sidebar-link">ReadMore 查看更多</a></li><li><a href="../components/steps.html" class="sidebar-link">Steps 步骤条</a></li><li><a href="../components/swipe_action.html" class="sidebar-link">SwipeAction 滑动单元格</a></li></ul></section></li><li><section class="sidebar-group is-sub-group depth-1"><p class="sidebar-heading"><span>布局组件</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="../components/grid.html" class="sidebar-link">Grid 宫格布局</a></li><li><a href="../components/list_view.html" class="sidebar-link">List 列表容器</a></li><li><a href="../components/list_cell.html" class="sidebar-link">List 列表Item</a></li><li><a href="../components/sticky.html" class="sidebar-link">Sticky 吸顶</a></li><li><a href="../components/collapse.html" class="sidebar-link">Collapse 折叠面板</a></li><li><a href="../components/time_line.html" class="sidebar-link">TimeLine 时间轴</a></li><li><a href="../components/index_list.html" class="sidebar-link">IndexList 索引列表</a></li><li><a href="../components/scroll_list.html" class="sidebar-link">ScrollList 横向滚动</a></li></ul></section></li><li><section class="sidebar-group is-sub-group depth-1"><p class="sidebar-heading open"><span>表单组件</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="../components/form.html" class="sidebar-link">Form 表单</a></li><li><a href="../components/input.html" class="sidebar-link">Input 输入框</a></li><li><a href="../components/picker.html" class="sidebar-link">Picker 选择器</a></li><li><a href="../components/select.html" aria-current="page" class="active sidebar-link">Select 列选择器</a></li><li><a href="../components/checkbox.html" class="sidebar-link">Checkbox 复选框</a></li><li><a href="../components/radio.html" class="sidebar-link">Radio 单选框</a></li><li><a href="../components/switch.html" class="sidebar-link">Switch 开关选择器</a></li><li><a href="../components/image_upload.html" class="sidebar-link">ImageUpload 图片上传</a></li><li><a href="../components/slider.html" class="sidebar-link">Slider 滑动选择器</a></li><li><a href="../components/rate.html" class="sidebar-link">Rate 评分器</a></li><li><a href="../components/number_box.html" class="sidebar-link">NumberBox 步进器</a></li><li><a href="../components/verification_code.html" class="sidebar-link">VerificationCode 验证码倒计时</a></li><li><a href="../components/keyboard.html" class="sidebar-link">Keyboard 键盘</a></li><li><a href="../components/calendar.html" class="sidebar-link">Calendar 日历</a></li><li><a href="../components/sign_board.html" class="sidebar-link">SignBoard 签名板</a></li></ul></section></li><li><section class="sidebar-group is-sub-group depth-1"><p class="sidebar-heading"><span>数据组件</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="../components/line_progress.html" class="sidebar-link">LineProgress 线性进度条</a></li><li><a href="../components/circle_progress.html" class="sidebar-link">CircleProgress 圆形进度条</a></li><li><a href="../components/count_down.html" class="sidebar-link">CountDown 倒计时</a></li><li><a href="../components/count_to.html" class="sidebar-link">CountTo 数字跳转</a></li><li><a href="../components/count_scroll.html" class="sidebar-link">CountScroll 数字滚动</a></li></ul></section></li><li><section class="sidebar-group is-sub-group depth-1"><p class="sidebar-heading"><span>反馈组件</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="../components/popup.html" class="sidebar-link">Popup 弹出层</a></li><li><a href="../components/modal.html" class="sidebar-link">Modal 模态框</a></li><li><a href="../components/toast.html" class="sidebar-link">Toast 消息提示</a></li><li><a href="../components/tips.html" class="sidebar-link">Tips 警告消息</a></li><li><a href="../components/actionsheet.html" class="sidebar-link">Actionsheet 操作菜单</a></li><li><a href="../components/notice_bar.html" class="sidebar-link">NoticeBar 通知栏</a></li></ul></section></li><li><section class="sidebar-group is-sub-group depth-1"><p class="sidebar-heading"><span>导航组件</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="../components/tabs.html" class="sidebar-link">Tabs 标签选项卡</a></li><li><a href="../components/tabs_swiper.html" class="sidebar-link">TabsSwiper 全屏选项卡</a></li><li><a href="../components/nav_bar.html" class="sidebar-link">NavBar 自定义顶部导航栏</a></li><li><a href="../components/tabbar.html" class="sidebar-link">Tabbar 底部导航</a></li></ul></section></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="select-列选择器"><a href="#select-列选择器" class="header-anchor">#</a> Select 列选择器</h1> <p>此选择器用于单列，多列，多列联动的选择场景。</p> <p><strong>注意：</strong> 不建议使用<code>tn-picker</code>组件的单列和多列模式，<code>tn-select</code>组件是专门为列选择而构造的组件，更简单易用。</p> <h3 id="平台差异说明"><a href="#平台差异说明" class="header-anchor">#</a> 平台差异说明</h3> <table><thead><tr><th style="text-align:center;">App</th> <th style="text-align:center;">H5</th> <th style="text-align:center;">微信小程序</th> <th style="text-align:center;">支付宝小程序</th> <th style="text-align:center;">百度小程序</th> <th style="text-align:center;">头条小程序</th> <th style="text-align:center;">QQ小程序</th></tr></thead> <tbody><tr><td style="text-align:center;">兼容中</td> <td style="text-align:center;">√</td> <td style="text-align:center;">√</td> <td style="text-align:center;">兼容中</td> <td style="text-align:center;">兼容中</td> <td style="text-align:center;">兼容中</td> <td style="text-align:center;">兼容中</td></tr></tbody></table> <h3 id="基本使用"><a href="#基本使用" class="header-anchor">#</a> 基本使用</h3> <p>所有的配置模式中，都要求传入数组的元素(对象)中含有<code>value</code>和<code>label</code>属性(可以通过<code>valueName</code>和<code>labelName</code>参数自定义)， <code>value</code>用于在回调时，区别选择了哪一个(针对开发者)，<code>label</code>用于展示在选择器中，供用户选择和查看(针对用户)。</p> <ul><li>通过<code>v-model</code>绑定一个布尔值变量，用于控制组件的弹出与收起。</li> <li>组件共有3种模式，通过配置<code>mode</code>参数实现，如下：</li></ul> <ol><li>mode = single，为单列选择模式。</li> <li>mode = multi，为多列选择模式。</li> <li>mode = multi-auto，为多列联动模式，多列联动的数据格式比较特殊，见下方说明。</li></ol> <h4 id="单列模式"><a href="#单列模式" class="header-anchor">#</a> 单列模式</h4> <p>此方式使用较为简单，需要传入一个一维数组，数组的元素为对象，要求必须有<code>value</code>和<code>label</code>属性，这两个值也将会在回调中被返回。</p> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tn-select</span> <span class="token attr-name">v-model</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>show<span class="token punctuation">&quot;</span></span> <span class="token attr-name">mode</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>single<span class="token punctuation">&quot;</span></span> <span class="token attr-name">:list</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>list<span class="token punctuation">&quot;</span></span> <span class="token attr-name">@confirm</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>confirm<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tn-select</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+	<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+		<span class="token function">data</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			<span class="token keyword">return</span> <span class="token punctuation">{</span>
+				show<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+				list<span class="token operator">:</span> <span class="token punctuation">[</span>
+					<span class="token punctuation">{</span>
+						value<span class="token operator">:</span> <span class="token string">'1'</span><span class="token punctuation">,</span>
+						label<span class="token operator">:</span> <span class="token string">'A'</span>
+					<span class="token punctuation">}</span><span class="token punctuation">,</span>
+					<span class="token punctuation">{</span>
+						value<span class="token operator">:</span> <span class="token string">'2'</span><span class="token punctuation">,</span>
+						label<span class="token operator">:</span> <span class="token string">'B'</span>
+					<span class="token punctuation">}</span><span class="token punctuation">,</span>
+					<span class="token punctuation">{</span>
+						value<span class="token operator">:</span> <span class="token string">'3'</span><span class="token punctuation">,</span>
+						label<span class="token operator">:</span> <span class="token string">'C'</span>
+					<span class="token punctuation">}</span>
+				<span class="token punctuation">]</span><span class="token punctuation">,</span>
+			<span class="token punctuation">}</span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+		methods<span class="token operator">:</span> <span class="token punctuation">{</span>
+			<span class="token comment">// 注意返回值为一个数组，单列时取数组的第一个元素即可(只有一个元素)</span>
+			<span class="token function">confirm</span><span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">;</span>
+			<span class="token punctuation">}</span>
+		<span class="token punctuation">}</span>
+	<span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h4 id="多列模式"><a href="#多列模式" class="header-anchor">#</a> 多列模式</h4> <p>此模式类似于单列模式，不同之处在于<code>list</code>参数为二维数组，同样要求数组的元素必须要有<code>value</code>和<code>label</code>属性，回调参数为包含多个元素的数组， 分别表示每一列的选择情况。</p> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tn-select</span> <span class="token attr-name">v-model</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>show<span class="token punctuation">&quot;</span></span> <span class="token attr-name">mode</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>multi<span class="token punctuation">&quot;</span></span> <span class="token attr-name">:list</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>list<span class="token punctuation">&quot;</span></span> <span class="token attr-name">@confirm</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>confirm<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tn-select</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+	<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+		<span class="token function">data</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			<span class="token keyword">return</span> <span class="token punctuation">{</span>
+				show<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+				list<span class="token operator">:</span> <span class="token punctuation">[</span>
+					<span class="token punctuation">[</span>
+						<span class="token punctuation">{</span>
+							value<span class="token operator">:</span> <span class="token string">'1'</span><span class="token punctuation">,</span>
+							label<span class="token operator">:</span> <span class="token string">'A'</span>
+						<span class="token punctuation">}</span><span class="token punctuation">,</span>
+						<span class="token punctuation">{</span>
+							value<span class="token operator">:</span> <span class="token string">'2'</span><span class="token punctuation">,</span>
+							label<span class="token operator">:</span> <span class="token string">'B'</span>
+						<span class="token punctuation">}</span>
+					<span class="token punctuation">]</span><span class="token punctuation">,</span>
+					<span class="token punctuation">[</span>
+						<span class="token punctuation">{</span>
+							value<span class="token operator">:</span> <span class="token string">'3'</span><span class="token punctuation">,</span>
+							label<span class="token operator">:</span> <span class="token string">'C'</span>
+						<span class="token punctuation">}</span><span class="token punctuation">,</span>
+						<span class="token punctuation">{</span>
+							value<span class="token operator">:</span> <span class="token string">'4'</span><span class="token punctuation">,</span>
+							label<span class="token operator">:</span> <span class="token string">'D'</span>
+						<span class="token punctuation">}</span>
+					<span class="token punctuation">]</span><span class="token punctuation">,</span>
+					
+				<span class="token punctuation">]</span><span class="token punctuation">,</span>
+			<span class="token punctuation">}</span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+		methods<span class="token operator">:</span> <span class="token punctuation">{</span>
+			<span class="token comment">// 回调参数为包含多个元素的数组，每个元素分别反应每一列的选择情况</span>
+			<span class="token function">confirm</span><span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">;</span>
+			<span class="token punctuation">}</span>
+		<span class="token punctuation">}</span>
+	<span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h4 id="多列联动模式"><a href="#多列联动模式" class="header-anchor">#</a> 多列联动模式</h4> <p>由于需要多列联动，此模式和上面的&quot;多列模式&quot;基本相同，但是也有区别的地方，因为需要&quot;联动&quot;，需要在每个对象中多一个<code>children</code>属性，用于标识 它的子列(后一列)的可选值，回调参数和&quot;多列模式&quot;一致。</p> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>tn-select</span> <span class="token attr-name">v-model</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>show<span class="token punctuation">&quot;</span></span> <span class="token attr-name">mode</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>multi-auto<span class="token punctuation">&quot;</span></span> <span class="token attr-name">:list</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>list<span class="token punctuation">&quot;</span></span> <span class="token attr-name">@confirm</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">&quot;</span>confirm<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>tn-select</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+	<span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+		<span class="token function">data</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+			<span class="token keyword">return</span> <span class="token punctuation">{</span>
+				show<span class="token operator">:</span> <span class="token boolean">true</span><span class="token punctuation">,</span>
+				list<span class="token operator">:</span> <span class="token punctuation">[</span>
+					<span class="token punctuation">{</span>
+						value<span class="token operator">:</span> <span class="token number">1</span><span class="token punctuation">,</span>
+						label<span class="token operator">:</span> <span class="token string">'中国'</span><span class="token punctuation">,</span>
+						children<span class="token operator">:</span> <span class="token punctuation">[</span>
+							<span class="token punctuation">{</span>
+								value<span class="token operator">:</span> <span class="token number">2</span><span class="token punctuation">,</span>
+								label<span class="token operator">:</span> <span class="token string">'广东'</span><span class="token punctuation">,</span>
+								children<span class="token operator">:</span> <span class="token punctuation">[</span>
+									<span class="token punctuation">{</span>
+										value<span class="token operator">:</span> <span class="token number">3</span><span class="token punctuation">,</span>
+										label<span class="token operator">:</span> <span class="token string">'深圳'</span>
+									<span class="token punctuation">}</span><span class="token punctuation">,</span>
+									<span class="token punctuation">{</span>
+										value<span class="token operator">:</span> <span class="token number">4</span><span class="token punctuation">,</span>
+										label<span class="token operator">:</span> <span class="token string">'广州'</span>
+									<span class="token punctuation">}</span>
+								<span class="token punctuation">]</span>
+							<span class="token punctuation">}</span><span class="token punctuation">,</span>
+							<span class="token punctuation">{</span>
+								value<span class="token operator">:</span> <span class="token number">5</span><span class="token punctuation">,</span>
+								label<span class="token operator">:</span> <span class="token string">'广西'</span><span class="token punctuation">,</span>
+								children<span class="token operator">:</span> <span class="token punctuation">[</span>
+									<span class="token punctuation">{</span>
+										value<span class="token operator">:</span> <span class="token number">6</span><span class="token punctuation">,</span>
+										label<span class="token operator">:</span> <span class="token string">'南宁'</span>
+									<span class="token punctuation">}</span><span class="token punctuation">,</span>
+									<span class="token punctuation">{</span>
+										value<span class="token operator">:</span> <span class="token number">7</span><span class="token punctuation">,</span>
+										label<span class="token operator">:</span> <span class="token string">'桂林'</span>
+									<span class="token punctuation">}</span>
+								<span class="token punctuation">]</span>
+							<span class="token punctuation">}</span>
+						<span class="token punctuation">]</span>
+					<span class="token punctuation">}</span><span class="token punctuation">,</span>
+					<span class="token punctuation">{</span>
+						value<span class="token operator">:</span> <span class="token number">8</span><span class="token punctuation">,</span>
+						label<span class="token operator">:</span> <span class="token string">'美国'</span><span class="token punctuation">,</span>
+						children<span class="token operator">:</span> <span class="token punctuation">[</span>
+							<span class="token punctuation">{</span>
+								value<span class="token operator">:</span> <span class="token number">9</span><span class="token punctuation">,</span>
+								label<span class="token operator">:</span> <span class="token string">'纽约'</span><span class="token punctuation">,</span>
+								children<span class="token operator">:</span> <span class="token punctuation">[</span>
+									<span class="token punctuation">{</span>
+										value<span class="token operator">:</span> <span class="token number">10</span><span class="token punctuation">,</span>
+										label<span class="token operator">:</span> <span class="token string">'皇后街区'</span>
+									<span class="token punctuation">}</span>
+								<span class="token punctuation">]</span>
+							<span class="token punctuation">}</span>
+						<span class="token punctuation">]</span>
+					<span class="token punctuation">}</span>
+				<span class="token punctuation">]</span>
+			<span class="token punctuation">}</span>
+		<span class="token punctuation">}</span><span class="token punctuation">,</span>
+		methods<span class="token operator">:</span> <span class="token punctuation">{</span>
+			<span class="token function">confirm</span><span class="token punctuation">(</span><span class="token parameter">e</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+				console<span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>e<span class="token punctuation">)</span><span class="token punctuation">;</span>
+			<span class="token punctuation">}</span>
+		<span class="token punctuation">}</span>
+	<span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><h3 id="默认值"><a href="#默认值" class="header-anchor">#</a> 默认值</h3> <p>此组件的所有模式，都可以设置默认值，通过<code>defaultValue</code>数组参数配置，数组元素的0表示选中每列的哪个值(从0开始)，下面分别对几种模式进行说明：</p> <p><strong>注意：</strong> <code>defaultValue</code>数组的长度，必须与列数相同，否则无效。</p> <ul><li>单列模式</li></ul> <p>如设置<code>defaultValue</code>为<code>[1]</code>表示默认选中第2个(从0开始)，<code>[5]</code>表示选中第6个。</p> <ul><li>多列模式</li></ul> <p>如设置<code>defaultValue</code>为<code>[1, 3]</code>表示第一列默认选中第2个，第二列默认选中第4个。</p> <ul><li>多列联动模式</li></ul> <p>配置方法同&quot;多列模式&quot;，见上。</p> <h3 id="回调参数"><a href="#回调参数" class="header-anchor">#</a> 回调参数</h3> <p><strong>注意：</strong> 如果您觉得回调的<code>value</code>和<code>label</code>属性还无法满足您的需求，您可以在传递给<code>list</code>的参数中多带一个<code>extra</code>属性，如果有此属性， 在回调中将会多返回一个<code>extra</code>属性值。</p> <h4 id="单列模式-2"><a href="#单列模式-2" class="header-anchor">#</a> 单列模式</h4> <p>此模式点击<code>确定</code>或<code>取消</code>按钮，会返回一个只有一个元素的数组，此元素即为回调结果，数组内容可能如下：</p> <div class="language-js extra-class"><pre class="language-js"><code>res <span class="token operator">=</span> <span class="token punctuation">[</span>
+	<span class="token punctuation">{</span>
+		label<span class="token operator">:</span> <span class="token string">'A'</span><span class="token punctuation">,</span>
+		value<span class="token operator">:</span> <span class="token string">'1'</span><span class="token punctuation">,</span>
+		<span class="token comment">// 如果传递给&quot;list&quot;的对象中有extra属性，将会在此返回</span>
+		<span class="token comment">// extra: 'xxx'</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">]</span>
+</code></pre></div><h4 id="多列模式-2"><a href="#多列模式-2" class="header-anchor">#</a> 多列模式</h4> <p>此模式点击<code>确定</code>或<code>取消</code>按钮，会返回一个有多个元素的数组，元素的数量和列数相等，第0个元素(索引从0开始)与第一列(也可以认为是第0列)相匹配，以此类推， 返回结果可能如下：</p> <div class="language-js extra-class"><pre class="language-js"><code>res <span class="token operator">=</span> <span class="token punctuation">[</span>
+	<span class="token punctuation">{</span>
+		label<span class="token operator">:</span> <span class="token string">'A'</span><span class="token punctuation">,</span>
+		value<span class="token operator">:</span> <span class="token string">'1'</span>
+	<span class="token punctuation">}</span><span class="token punctuation">,</span>
+	<span class="token punctuation">{</span>
+		label<span class="token operator">:</span> <span class="token string">'C'</span><span class="token punctuation">,</span>
+		value<span class="token operator">:</span> <span class="token string">'3'</span>
+	<span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">]</span>
+</code></pre></div><h4 id="多列联动"><a href="#多列联动" class="header-anchor">#</a> 多列联动</h4> <p>返回结果跟上方的“多列模式”一样。</p> <h3 id="api"><a href="#api" class="header-anchor">#</a> API</h3> <h3 id="props"><a href="#props" class="header-anchor">#</a> Props</h3> <table><thead><tr><th style="text-align:center;">属性名</th> <th style="text-align:center;">说明</th> <th style="text-align:center;">类型</th> <th style="text-align:center;">默认值</th> <th style="text-align:center;">可选值</th></tr></thead> <tbody><tr><td style="text-align:center;">v-model</td> <td style="text-align:center;">用于控制列选择器的弹出与收起</td> <td style="text-align:center;">Boolean</td> <td style="text-align:center;">false</td> <td style="text-align:center;">true</td></tr> <tr><td style="text-align:center;">mode</td> <td style="text-align:center;">列表模式</td> <td style="text-align:center;">String</td> <td style="text-align:center;">single</td> <td style="text-align:center;">multi/multi-auto</td></tr> <tr><td style="text-align:center;">list</td> <td style="text-align:center;">选择器列表数据</td> <td style="text-align:center;">Array</td> <td style="text-align:center;">-</td> <td style="text-align:center;">-</td></tr> <tr><td style="text-align:center;">valueName</td> <td style="text-align:center;">列表数据<code>value</code>属性的属性名</td> <td style="text-align:center;">String</td> <td style="text-align:center;">value</td> <td style="text-align:center;">-</td></tr> <tr><td style="text-align:center;">labelName</td> <td style="text-align:center;">列表数据<code>label</code>属性的属性名</td> <td style="text-align:center;">String</td> <td style="text-align:center;">label</td> <td style="text-align:center;">-</td></tr> <tr><td style="text-align:center;">childName</td> <td style="text-align:center;">列表数据<code>children</code>属性的属性名，只对多列联动模式有效</td> <td style="text-align:center;">String</td> <td style="text-align:center;">children</td> <td style="text-align:center;">-</td></tr> <tr><td style="text-align:center;">defaultValue</td> <td style="text-align:center;">列表选择默认选中选项</td> <td style="text-align:center;">Array</td> <td style="text-align:center;">[0]</td> <td style="text-align:center;">-</td></tr> <tr><td style="text-align:center;">title</td> <td style="text-align:center;">顶部标题</td> <td style="text-align:center;">String</td> <td style="text-align:center;">-</td> <td style="text-align:center;">-</td></tr> <tr><td style="text-align:center;">cancelText</td> <td style="text-align:center;">取消按钮的文字</td> <td style="text-align:center;">String</td> <td style="text-align:center;">取消</td> <td style="text-align:center;">-</td></tr> <tr><td style="text-align:center;">confirmText</td> <td style="text-align:center;">确认按钮的文字</td> <td style="text-align:center;">String</td> <td style="text-align:center;">确认</td> <td style="text-align:center;">-</td></tr> <tr><td style="text-align:center;">safeAreaInsetBottom</td> <td style="text-align:center;">开启底部安全区适配</td> <td style="text-align:center;">Boolean</td> <td style="text-align:center;">false</td> <td style="text-align:center;">true</td></tr> <tr><td style="text-align:center;">maskCloseable</td> <td style="text-align:center;">点击遮罩层可关闭选择器</td> <td style="text-align:center;">Boolean</td> <td style="text-align:center;">true</td> <td style="text-align:center;">false</td></tr> <tr><td style="text-align:center;">zIndex</td> <td style="text-align:center;">弹窗的<code>zIndex</code>值</td> <td style="text-align:center;">Number</td> <td style="text-align:center;">20075</td> <td style="text-align:center;">-</td></tr></tbody></table> <h3 id="slots"><a href="#slots" class="header-anchor">#</a> Slots</h3> <p>none</p> <h3 id="event"><a href="#event" class="header-anchor">#</a> Event</h3> <table><thead><tr><th>事件名称</th> <th>说明</th> <th>回调参数</th></tr></thead> <tbody><tr><td>confirm</td> <td>点击确认按钮时触发</td> <td>Array:见上方<a href="#%E5%9B%9E%E8%B0%83%E5%8F%82%E6%95%B0">回调函数</a>部分说明</td></tr> <tr><td>cancel</td> <td>点击取消按钮时触发</td> <td>Array:见上方<a href="#%E5%9B%9E%E8%B0%83%E5%8F%82%E6%95%B0">回调函数</a>部分说明</td></tr></tbody></table></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="../components/picker.html" class="prev">
+        Picker 选择器
+      </a></span> <span class="next"><a href="../components/checkbox.html">
+        Checkbox 复选框
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="../assets/js/app.d56807b0.js" defer></script><script src="../assets/js/2.c541581f.js" defer></script><script src="../assets/js/49.0145f474.js" defer></script>
+  </body>
+</html>
